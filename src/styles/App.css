@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans&family=Nunito:wght@700&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+  background: linear-gradient(to bottom, #b8d8e4, #ffffff);
+
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+  background-color: #2195f39d;
+  padding: 15px 111px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input {
+  font-size: 18px;
+  padding: 8px 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.button-container {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  font-size: 16px;
+  padding: 18px 32px;
+  background-color: #4caf4fde;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Montseratt', sans-serif;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.result {
+  margin-top: 35px;
+  padding: 12px 38px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.337);
+  text-align: center;
+}
+
+.congratulations-message, .tries{
+  color: #4caf50;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.error-message {
+  padding: 8px 20px;
+  color: #f67066;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
